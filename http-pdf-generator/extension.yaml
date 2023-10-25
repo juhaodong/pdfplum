@@ -57,7 +57,6 @@ resources:
     properties:
       runtime: nodejs18
       timeout: 60s
-      availableMemoryMB: 1024
       httpsTrigger: {}
 
 params:

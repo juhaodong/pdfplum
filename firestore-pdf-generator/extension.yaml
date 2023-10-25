@@ -62,7 +62,6 @@ resources:
     properties:
       runtime: nodejs18
       timeout: 60s
-      availableMemoryMB: 1024
       eventTrigger:
         eventType: providers/cloud.firestore/eventTypes/document.write
         resource: projects/${param:PROJECT_ID}/databases/(default)/documents/${param:FIRESTORE_COLLECTION}/{id}

@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 
 export const pathToEnvFile = path.resolve(
   __dirname,
-  "../../../extensions/http-pdf-generator.env.test"
+  "../../../extensions/http-pdf-generator.env"
 );
 
 export const setupEnvironment = () => {
